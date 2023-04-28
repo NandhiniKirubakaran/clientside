@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, NavbarBrand } from "reactstrap";
 
-const pizzaLogoLink = "https://cdn-icons-png.flaticon.com/512/3595/3595458.png";
+const pizzaLogoLink = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9BPnrca1z_lTwom8TaRkY3mmRp5Z9VoJlXw&usqp=CAU";
 
 export default function index() {
   // const { cart } = useSelector((state) => state.cart);
@@ -10,12 +10,14 @@ export default function index() {
   return (
     <Navbar color="dark" dark>
       <NavbarBrand href="/">
-        <img
+        <img 
           alt={"pix=zza-logo"}
           src={pizzaLogoLink}
           style={{
-            height: 40,
-            width: 40,
+            height: 45,
+            width: 60,
+            borderRadius: 50,
+            padding: 3,
           }}
         />
         Delivero
