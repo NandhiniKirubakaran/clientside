@@ -1,0 +1,110 @@
+.App{
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.app-container{
+    max-width: 100%;
+    margin: 0px auto;
+    max-width: 1080px;
+    
+}
+
+#link-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: white;
+}
+
+.img-size{
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card-size{
+    height: 450px;
+}
+
+.lk-1{
+    color: white;
+    text-decoration: none;
+}
+.mb-2{
+    font-size: 12px;
+    height: 80px;
+}
+
+.lk-1:hover {
+    color: white;
+}
+
+.h-20{
+    height: 20px;
+}
+.h-30{
+    height: 30px;
+}
+.h-10{
+    height: 10px;
+}
+.h-40{
+    height: 40px;
+}
+
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-product-listing{
+    width: 75%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.card-price-calculator{
+    width: 25%;
+    height: auto;
+    min-height: 500px;
+    background-color: rgb(191, 241, 225);
+}
+
+.card-price-calculator ul {
+padding: 0;
+}
+
+.bill-listings  ul li p {
+    padding: 0;
+    margin: 0;
+}
+
+.tax-listings ul li p {
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------------ */
+.login-form{
+     display: flex;
+     flex-direction: column;
+     width: 400px;
+     gap: 20px;
+     padding: 10px;
+    margin: 50px;
+   }
+.forget-link{
+    margin-left: 190px;
+    color: black;
+}
+.signup-link{
+    margin-left: 100px;
+    color: black;
+}
+.cart-name1{
+margin-left: 150px;
+margin-bottom: -50px;
+font-weight: 600;
+}
