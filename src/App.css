@@ -60,7 +60,7 @@
 }
 
 .card-product-listing{
-    width: 75%;
+    width: 120%;
     height: 100vh;
     background-color: aqua;
 }
@@ -114,3 +114,16 @@ body{
     background-position: center;
     background-size: cover;
 }
+.checkout-button{
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 480px;
+   margin-top: 0;
+  }
+  .checkout{
+    font-size: 16px;
+    font-weight: 600;
+  }

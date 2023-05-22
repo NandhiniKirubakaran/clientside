@@ -23,8 +23,8 @@ export default function index() {
         Delivero
       </NavbarBrand>
       <div id="link-container">
-        <Link className="lk-1" to={"/"}>Food Item's</Link>
-        <Link className="lk-1" to={"/orders"}>Orders</Link>
+        <Link className="lk-1" to={"/product-listing"}>Food Item's</Link>
+        {/* <Link className="lk-1" to={"/orders"}>Orders</Link> */}
         <Link className="lk-1" to={"/cart"}>Cart</Link>
         <Link className="lk-1" to={"/"}>Logout</Link>
       </div>
